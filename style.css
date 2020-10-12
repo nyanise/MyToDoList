@@ -1,0 +1,96 @@
+body{
+    background-image: url(./img/wood.jpg);
+    background-size: cover;
+    height: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.wrapper{
+    width: 80%;
+    margin: auto;
+    height: 500px;
+    background-color: rgba(0, 0,0,0.5);
+    margin-top: 5%;
+    color: white;
+    font-size: 20px;
+}
+.divInp{
+    width: 100%;
+    margin: auto;
+}
+.input{
+
+    width: 85%;
+    height: 50px;
+    margin: 2%;
+    background:none;
+    border: none;
+    border-bottom:2px solid white;
+    color: white;
+    font-size: 20px;
+
+}
+/* h3{
+    background: rgba(118, 176, 214, 0.7);
+    width:15%;
+    padding: 5px;
+    height: 30px;
+   
+} */
+hr{
+    width: 80%;
+    margin-left: 0;
+}
+.li{
+  
+    display: flex;
+    flex-direction: row;
+    /* justify-content:space-between; */
+    margin-top: 2%;
+    background-color: rgba(255, 255, 255, 0.7);
+    color: black;
+    width: 80%;
+    height: auto;
+    padding: 10px;
+    /* border: 1px solid white; */
+    border-radius: 5px;
+    list-style: none;
+    clear:left;
+}
+.i{
+    cursor: pointer;
+   margin-right: 5px;
+   object-position: center;
+   /* float: right; */
+}
+.delete:hover{
+    color: rgba(255, 0, 0,0.7);
+}
+.check:hover{
+    color: rgba(30, 135, 206,0.7);
+}
+.check{
+    color: rgb(30, 135, 206);
+    float: right;
+}
+.con{
+    width: 100%;
+    justify-content: space-between;
+}
+.delete{
+    
+    color: red;
+    float: right;
+    
+}
+#complete li{
+    background-color: rgba(118, 176, 214, 0.7);
+    color: white;
+    display: flex;
+    flex-direction: row;
+}
+#complete li .check{
+
+    color: black;
+   
+}
